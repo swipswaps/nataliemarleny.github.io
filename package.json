@@ -1,0 +1,25 @@
+{
+  "name": "nataliehub",
+  "version": "1.0.0",
+  "description": "Githubbification of Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "tc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tba"
+  },
+  "keywords": [
+    "natalie",
+    "marleny",
+    "github",
+    "resume"
+  ],
+  "author": "Natalie Marleny",
+  "license": "ISC",
+  "dependencies": {
+    "primer-core": "^6.10.3",
+    "primer-product": "^5.6.6"
+  }
+}
