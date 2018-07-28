@@ -1,0 +1,12 @@
+.btn-outline-reverse {
+  background-color: #0366d6 !important;
+  color: #fff;
+  border-color: #fff;
+}
+.btn-outline-reverse:hover {
+  background-color: #fff !important;
+  color: #0366d6;
+  border-color: #fff;
+}
+.main-content { max-width: 60em; }
+.fill-fade-white { fill: rgba(255, 255, 255, 0.5); }
