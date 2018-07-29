@@ -4,6 +4,13 @@ header { height: 60px; }
 .main-content { max-width: 1010px; }
 
 .left-column { max-width: 253px; }
+.summary-name {
+    font-size: 26px;
+    line-height: 30px;
+}
+.summary-subtitle { line-height: 26px; }
+.summary-paragraph { color: #6a737d; }
+.summary-button { width: 229px; }
 
 .pinned-list { flex-direction: column; }
 .pinned-item { flex: 40%; }
