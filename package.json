@@ -4,7 +4,7 @@
   "description": "Githubbification of Resume",
   "main": "index.js",
   "scripts": {
-    "test": "tc"
+    "serve": "http-server"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "author": "Natalie Marleny",
   "license": "ISC",
   "dependencies": {
+    "http-server": "^0.11.1",
     "primer-core": "^6.10.3",
     "primer-product": "^5.6.6"
   }
