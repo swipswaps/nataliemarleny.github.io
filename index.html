@@ -103,8 +103,8 @@
               </a>
             </div>
           </nav>
-          <section class="mt-4">
-            <h3 class="f4 mb-2 text-normal">Pinned experiences</h3>
+          <section class="mt-4" aria-labelledby="section-1-header">
+            <h3 id="section-1-header" class="f4 mb-2 text-normal">Pinned experiences</h3>
             <ul class="d-flex flex-column list-style-none mb-4">
               <div class="d-flex flex-wrap flex-justify-between pinned-list">
                 <li class="d-flex p-3 mb-3 mr-2 border border-gray-dark rounded-1 pinned-item">
@@ -235,8 +235,47 @@
                 </li>
               </div>
             </ul>
-            <h2 class="mt-4 f1">Packages</h2>
-            <p class="f3 mb-6">Primer CSS includes 30 packages that are grouped into 3 core meta-packages for easy install. Each package and meta-package is independently versioned and distributed via npm, so it's easy to include all or part of Primer within your own project.</p>
+          </section>
+          <section aria-labelledby="section-2-header">
+            <h3 id="section-2-header" class="f4 mb-2 text-normal">
+              Meet-ups attended over 2017-2018
+            </h3>
+          </section>
+          <section class="mt-5" aria-labelledby="section-3-header">
+            <a id="experiences"></a>
+            <h3 id="section-3-header" class="f4 mb-2 text-normal">
+              Selected experiences
+            </h3>
+            <div class="width-full">
+              <div class="d-flex flex-row flex-items-center flex-start">
+                <h3 class="h6 pr-2 py-1 d-flex flex-nowrap">July
+                  <span class="pl-1 text-gray"> 2018</span>
+                </h3>
+                <span class="timeline-horizontal gray-timeline" style="width: 89%;"></span>
+              </div>
+              <div class="d-flex flex-row flex-nowrap">
+                <div class="mr-3 d-flex flex-column flex-items-center flex-justify-center">
+                  <span class="timeline-line-top gray-timeline"></span>
+                  <span class="d-flex flex-items-center flex-justify-center timeline-circle-marker gray-timeline">
+                    <svg aria-label="git-repo" width="12" height="16" viewBox="0 0 12 16" role="img">
+                      <path fill="#586069" fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"
+                      />
+                    </svg>
+                  </span>
+                  <span class="timeline-line-bottom gray-timeline" style="flex-basis: auto; flex-grow: 2;"></span>
+                </div>
+                <div class="pt-3">
+                  <span class="f4 text-gray lh-condensed">Forged 1 experience over 3 days</span>
+                  <div class="d-flex flex-wrap flex-row flex-justify-start flex-items-center mt-2">
+                    <span class="pr-3">conference/full_stack_conference</span>
+                    <small class="f6 text-gray pt-1">
+                      <span class="language-indicator position-relative d-inline-block mr-1 blue-300"></span>
+                      webpack
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </div>

@@ -2,6 +2,7 @@ header { height: 60px; }
 
 .main-content { max-width: 1010px; }
 
+.gray-timeline { background-color: #e6ebf1; }
 .gray-500 { color: #6a737d; }
 .gray-700 { background-color: #444d56; }
 .gray-900 { background-color:#24292e; }
@@ -32,6 +33,18 @@ header { height: 60px; }
     height: 12px;
     border-radius: 50%;
 }
+
+.timeline-horizontal { height: 1px; }
+.timeline-line-top {
+    height: 13px;
+    width: 2px;
+}
+.timeline-circle-marker {
+    height: 32px !important;
+    width: 32px !important;
+    border-radius: 100px;
+}
+.timeline-line-bottom { width: 2px; }
 
 /* Media Queries */
 @media (min-width: 600px) {
