@@ -34,6 +34,10 @@ header { height: 60px; }
     border-radius: 50%;
 }
 
+.timeline-stretch {
+    flex-basis: auto;
+    flex-grow: 2;
+}
 .timeline-horizontal { height: 1px; }
 .timeline-line-top {
     height: 13px;
