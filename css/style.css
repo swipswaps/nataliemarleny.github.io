@@ -1,12 +1,12 @@
-.btn-outline-reverse {
-  background-color: #0366d6 !important;
-  color: #fff;
-  border-color: #fff;
+header { height: 60px; }
+
+.main-content { max-width: 1010px; }
+
+.left-column {max-width: 253px; }
+
+/* Media Queries */
+@media (min-width: 600px) {
+    .column-container {
+        flex-wrap: nowrap !important;
+    }
 }
-.btn-outline-reverse:hover {
-  background-color: #fff !important;
-  color: #0366d6;
-  border-color: #fff;
-}
-.main-content { max-width: 1012px; }
-.fill-fade-white { fill: rgba(255, 255, 255, 0.5); }
