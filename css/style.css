@@ -1,7 +1,19 @@
 header { height: 60px; }
 
-
 .main-content { max-width: 1010px; }
+
+.gray-500 { color: #6a737d; }
+.gray-700 { background-color: #444d56; }
+.gray-900 { background-color:#24292e; }
+.blue-300 { background-color: #79b8ff; }
+.blue-400 { background-color: #2188ff; }
+.blue-500 { background-color: #0366d6; }
+.green-500 { background-color: #28a745; }
+.yellow-400 { background-color: #ffdf5d; }
+.yellow-500 { background-color: #ffd33d; }
+.orange-400 { background-color: #fb8532; }
+.red-400 { background-color: #ea4a5a; }
+.purple-400 { background-color: #8a63d2; }
 
 .left-column { max-width: 253px; }
 .summary-name {
@@ -9,19 +21,17 @@ header { height: 60px; }
     line-height: 30px;
 }
 .summary-subtitle { line-height: 24px; }
-.summary-paragraph { color: #6a737d; }
 .summary-button { width: 229px; }
 .summary-toolkit { height: 35px; }
-.gray-700 { background-color: #444d56; }
-.blue-400 { background-color: #2188ff; }
-.blue-300 { background-color: #79b8ff; }
-.yellow-400 { background-color: #ffdf5d; }
-.orange-400 { background-color: #fb8532; }
-.red-400 { background-color: #ea4a5a; }
-.purple-400 { background-color: #8a63d2; }
 
 .pinned-list { flex-direction: column; }
-.pinned-item { flex: 40%; }
+.pinned-item { flex: 48%; }
+.language-indicator {
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
 
 /* Media Queries */
 @media (min-width: 600px) {
