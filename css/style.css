@@ -49,10 +49,27 @@ header { height: 60px; }
     border-radius: 100px;
 }
 .timeline-line-bottom { width: 2px; }
+.timeline-card { flex-direction: column; }
+.timeline-card-commits {
+    top: 1px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 2%;
+    margin-left: -3px;
+}
+.timeline-card-text { margin-left: 0px; }
+.timeline-card-info { flex-direction: column; }
+.timeline-card-octicon { margin-bottom: 16px; }
+
 
 /* Media Queries */
 @media (min-width: 600px) {
     .column-container { flex-wrap: nowrap !important; }
+    .timeline-card { flex-direction: row; }
+    .timeline-card-text { margin-left: 24px; }
+    .timeline-card-info { flex-direction: row; }
+    .timeline-card-octicon { margin-bottom: 0px; }
 }
 
 @media (min-width: 700px) {
