@@ -5,9 +5,14 @@ header { height: 60px; }
 
 .left-column { max-width: 253px; }
 
+.pinned-list { flex-direction: column; }
+.pinned-item { flex: 40%; }
+
 /* Media Queries */
 @media (min-width: 600px) {
-    .column-container {
-        flex-wrap: nowrap !important;
-    }
+    .column-container { flex-wrap: nowrap !important; }
+}
+
+@media (min-width: 700px) {
+    .pinned-list { flex-direction: row; }
 }
