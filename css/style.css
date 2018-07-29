@@ -1,8 +1,9 @@
 header { height: 60px; }
 
+
 .main-content { max-width: 1010px; }
 
-.left-column {max-width: 253px; }
+.left-column { max-width: 253px; }
 
 /* Media Queries */
 @media (min-width: 600px) {
