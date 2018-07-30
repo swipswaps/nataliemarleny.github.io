@@ -1,7 +1,7 @@
 {
   "name": "nataliehub",
   "version": "1.0.0",
-  "description": "Githubbification of Resume",
+  "description": "Githubbified Resume",
   "main": "index.js",
   "scripts": {
     "serve": "http-server"
