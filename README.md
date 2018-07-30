@@ -26,7 +26,7 @@ Illustrations are drawn (by me) and versioned using [Figma](https://www.figma.co
 ### Challenges:
 
 #### Semantic HTML
-I cross checked what I was building against inspecting source on my Github profile. I wondered if the semantics of the HTML tags would alter with this being a single static site page, with particular reference to span tags used in the timeline section. Applying heading tags where spans were applied on the Github profile page overwrote some of the CSS styling which would undermined the challenge of working solely within Primer's CSS system.
+I cross checked what I was building against inspecting source on my Github profile. I wondered if the semantics of the HTML tags would alter with this being a single static site page, with particular reference to span tags used in the timeline section. Applying heading tags where spans were applied on the Github profile page overwrote some of the CSS styling which undermined the challenge of working solely within Primer's CSS system, and made me question if I was using the 'correct' or rather, 'most semantic' tag.
 
 #### Scaling without Jekyll
 Regrets started to settle around the time I started constructing the timeline
