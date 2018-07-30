@@ -84,6 +84,9 @@ header { height: 60px; }
 }
 
 @media (min-width: 1010px) {
-    .container { width: 700px; display: block; }
+    .container {
+        width: 700px;
+        display: block;
+    }
     .events-explainer { display: none; }
 }

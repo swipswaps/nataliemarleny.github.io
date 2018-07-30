@@ -1,110 +1,117 @@
 [
-    {
-      "date": "2017-09-28T23:00:00.000Z",
-      "count": 40
-    },
-    {
-      "date": "2017-10-02T23:00:00.000Z",
-      "count": 20
-    },
-    {
-      "date": "2017-11-07T23:00:00.000Z",
-      "count": 19
-    },
-    {
-      "date": "2017-11-22T23:00:00.000Z",
-      "count": 42
-    },
-    {
-      "date": "2017-11-25T23:00:00.000Z",
-      "count": 19
-    },
-    {
-      "date": "2017-12-26T23:00:00.000Z",
-      "count": 53
-    },
-    {
-      "date": "2018-02-01T23:00:00.000Z",
-      "count": 50
-    },
-    {
-      "date": "2018-02-28T23:00:00.000Z",
-      "count": 34
-    },
-    {
-      "date": "2018-03-19T23:00:00.000Z",
-      "count": 20
-    },
-    {
-      "date": "2018-03-26T23:00:00.000Z",
-      "count": 20
-    },
-    {
-      "date": "2018-03-28T23:00:00.000Z",
-      "count": 33
-    },
-    {
-      "date": "2018-03-28T23:00:00.000Z",
-      "count": 29
-    },
-    {
-      "date": "2018-04-23T23:00:00.000Z",
-      "count": 14
-    },
-    {
-      "date": "2018-04-24T23:00:00.000Z",
-      "count": 19
-    },
-    {
-      "date": "2018-06-07T23:00:00.000Z",
-      "count": 30
-    },
-    {
-      "date": "2018-06-20T23:00:00.000Z",
-      "count": 16
-    },
-    {
-      "date": "2018-07-02T23:00:00.000Z",
-      "count": 19
-    },
-    {
-      "date": "2018-07-11T23:00:00.000Z",
-      "count": 30
-    },
-    {
-      "date": "2018-07-12T23:00:00.000Z",
-      "count": 20
-    },
-    {
-      "date": "2018-07-13T23:00:00.000Z",
-      "count": 52
-    },
-    {
-      "date": "2018-07-19T23:00:00.000Z",
-      "count": 33
-    },
-    {
-      "date": "2018-07-31T23:00:00.000Z",
-      "count": 44
-    },
-    {
-      "date": "2018-08-19T23:00:00.000Z",
-      "count": 19
-    },
-    {
-      "date": "2018-08-30T23:00:00.000Z",
-      "count": 44
-    },
-    {
-      "date": "2018-09-19T23:00:00.000Z",
-      "count": 52
-    },
-    {
-      "date": "2018-09-20T23:00:00.000Z",
-      "count": 30
-    },
-    {
-      "date": "2018-09-21T23:00:00.000Z",
-      "count": 13
-    }
-  ]
+  {
+    "date": "2017-12-13T23:00:00.000Z",
+    "count": 53,
+    "text": "Framer @ Deliveroo"
+  },
+  {
+    "date": "2018-01-31T23:00:00.000Z",
+    "count": 50,
+    "text": "Alex Norris @ Apple"
+  },
+  {
+    "date": "2018-02-27T23:00:00.000Z",
+    "count": 34,
+    "text": "Framer @ The App Factory"
+  },
+  {
+    "date": "2018-03-18T23:00:00.000Z",
+    "count": 20,
+    "text": "JAMStack @ AKQA"
+  },
+  {
+    "date": "2018-03-25T23:00:00.000Z",
+    "count": 20,
+    "text": "Reactivate @ Trainline"
+  },
+  {
+    "date": "2018-03-27T23:00:00.000Z",
+    "count": 33,
+    "text": "London Accessibility"
+  },
+  {
+    "date": "2018-03-27T23:00:00.000Z",
+    "count": 29,
+    "text": "Mike Monteiro Talk"
+  },
+  {
+    "date": "2018-04-22T23:00:00.000Z",
+    "count": 14,
+    "text": "London Accessibility"
+  },
+  {
+    "date": "2018-04-23T23:00:00.000Z",
+    "count": 19,
+    "text": "Framer @ Pivotal"
+  },
+  {
+    "date": "2018-06-06T23:00:00.000Z",
+    "count": 30,
+    "text": "Framer @ Facebook"
+  },
+  {
+    "date": "2018-06-19T23:00:00.000Z",
+    "count": 16,
+    "text": "JS @ JustEat"
+  },
+  {
+    "date": "2018-07-01T23:00:00.000Z",
+    "count": 19,
+    "text": "D3 @ Skills Matter"
+  },
+  {
+    "date": "2018-07-10T23:00:00.000Z",
+    "count": 30,
+    "text": "Full Stack Conference"
+  },
+  {
+    "date": "2018-07-11T23:00:00.000Z",
+    "count": 20,
+    "text": "Full Stack Conference"
+  },
+  {
+    "date": "2018-07-12T23:00:00.000Z",
+    "count": 52,
+    "text": "Full Stack Conference"
+  },
+  {
+    "date": "2018-07-18T23:00:00.000Z",
+    "count": 33,
+    "text": "Tea Uglow @ Pentagram"
+  },
+  {
+    "date": "2018-07-30T23:00:00.000Z",
+    "count": 44,
+    "text": "JS @ Nexmo"
+  },
+  {
+    "date": "2018-08-08T23:00:00.000Z",
+    "count": 19,
+    "text": "µServices @ Netlify"
+  },
+  {
+    "date": "2018-08-29T23:00:00.000Z",
+    "count": 44,
+    "text": "Design+Code Paris"
+  },
+  {
+    "date": "2018-09-12T23:00:00.000Z",
+    "count": 44,
+    "text": "Framer @ Farfetch"
+  },
+  {
+    "date": "2018-09-18T23:00:00.000Z",
+    "count": 50,
+    "text": "Framer Loupe"
+  },
+  {
+    "date": "2018-09-19T23:00:00.000Z",
+    "count": 50,
+    "text": "Framer Loupe"
+  },
+  {
+    "date": "2018-09-20T23:00:00.000Z",
+    "count": 50,
+    "text": "Framer Loupe"
+  }
+]

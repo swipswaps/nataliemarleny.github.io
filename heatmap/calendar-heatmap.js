@@ -7,9 +7,9 @@ function calendarHeatmap() {
   var selector = 'body';
   var SQUARE_LENGTH = 10;
   var SQUARE_PADDING = 2;
-  var MONTH_LABEL_PADDING = 8;
-  var now = moment().endOf('day').toDate();
-  var yearAgo = moment().startOf('day').subtract(1, 'year').toDate();
+  var MONTH_LABEL_PADDING = 6;
+  var now = new Date('2018-09-28');
+  var yearAgo = new Date('2017-12-09');
   var startDate = null;
   var counterMap= {};
   var data = [];
@@ -38,9 +38,8 @@ function calendarHeatmap() {
     counterMap= {};
 
     data.forEach(function (element, index) {
-        var key= moment(element.date).format( 'YYYY-MM-DD' );
-        var counter= counterMap[key] || 0;
-        counterMap[key]= counter + element.count;
+        var key= moment(element.date).format('YYYY-MM-DD' );
+        counterMap[key]= [element.count, element.text];
     });
 
     return chart;
@@ -131,7 +130,7 @@ function calendarHeatmap() {
         .attr('width', width)
         .attr('class', 'calendar-heatmap')
         .attr('height', height)
-        .style('padding', '10px');
+        .style('padding', '36px');
 
       dayRects = svg.selectAll('.day-cell')
         .data(dateRange);  //  array of days for the last yr
@@ -140,7 +139,7 @@ function calendarHeatmap() {
         .attr('class', 'day-cell')
         .attr('width', SQUARE_LENGTH)
         .attr('height', SQUARE_LENGTH)
-        .attr('fill', function(d) { return color(countForDate(d)); })
+        .attr('fill', function(d) { return color(countForDate(d)[0] || 0); })
         .attr('x', function (d, i) {
           var cellDate = moment(d);
           var result = cellDate.week() - firstDate.week() + (firstDate.weeksInYear() * (cellDate.weekYear() - firstDate.weekYear()));
@@ -152,7 +151,7 @@ function calendarHeatmap() {
 
       if (typeof onClick === 'function') {
         (v === 3 ? enterSelection : enterSelection.merge(dayRects)).on('click', function(d) {
-          var count = countForDate(d);
+          var count = countForDate(d)[0] || 0;
           onClick({ date: d, count: count});
         });
       }
@@ -187,19 +186,19 @@ function calendarHeatmap() {
             .attr('class', 'calendar-heatmap-legend')
             .attr('width', SQUARE_LENGTH)
             .attr('height', SQUARE_LENGTH)
-            .attr('x', function (d, i) { return (width - legendWidth) + (i + 1) * 13; })
+            .attr('x', function (d, i) { return (width - legendWidth) + (i - 10) * 13; })
             .attr('y', height + SQUARE_PADDING)
             .attr('fill', function (d) { return d; });
 
         legendGroup.append('text')
           .attr('class', 'calendar-heatmap-legend-text calendar-heatmap-legend-text-less')
-          .attr('x', width - legendWidth - 13)
+          .attr('x', width - legendWidth - 160)
           .attr('y', height + SQUARE_LENGTH)
           .text(locale.Less);
 
         legendGroup.append('text')
           .attr('class', 'calendar-heatmap-legend-text calendar-heatmap-legend-text-more')
-          .attr('x', (width - legendWidth + SQUARE_PADDING) + (colorRange.length + 1) * 13)
+          .attr('x', width - legendWidth - 72)
           .attr('y', height + SQUARE_LENGTH)
           .text(locale.More);
       }
@@ -253,8 +252,9 @@ function calendarHeatmap() {
 
     function tooltipHTMLForDate(d) {
       var dateStr = moment(d).format('ddd, MMM Do YYYY');
-      var count = countForDate(d);
-      return '<span><strong>' + (count ? count : locale.No) + ' ' + pluralizedTooltipUnit(count) + '</strong> ' + locale.on + ' ' + dateStr + '</span>';
+      var count = countForDate(d)[0];
+      var text = countForDate(d)[1];
+      return '<span><strong>' + (count ? text : locale.No) + '</strong> ' + locale.on + ' ' + dateStr + '</span>';
     }
 
     function countForDate(d) {
