@@ -61,7 +61,14 @@ header { height: 60px; }
 .timeline-card-text { margin-left: 0px; }
 .timeline-card-info { flex-direction: column; }
 .timeline-card-octicon { margin-bottom: 16px; }
+.container { display: none; }
+.events-explainer { display: flex; }
 
+.calendar-heatmap {
+    box-sizing: initial;
+    display: flex;
+    flex-shrink: auto;
+  }
 
 /* Media Queries */
 @media (min-width: 600px) {
@@ -74,4 +81,9 @@ header { height: 60px; }
 
 @media (min-width: 700px) {
     .pinned-list { flex-direction: row; }
+}
+
+@media (min-width: 1010px) {
+    .container { width: 700px; display: block; }
+    .events-explainer { display: none; }
 }

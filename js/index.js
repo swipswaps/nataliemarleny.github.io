@@ -2,12 +2,12 @@ var now = moment().endOf('day').toDate();
 var yearAgo = moment().startOf('day').subtract(1, 'year').toDate();
 
 var customLocale = {
-months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', '', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-days: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
-No: 'No',
-on: 'on',
-Less: 'Less',
-More: 'More'
+    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', '', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    days: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+    No: 'No',
+    on: 'on',
+    Less: 'Less',
+    More: 'More'
 }
 
 d3.json("data.json").then(function (chartData) {
@@ -22,7 +22,7 @@ var heatmap = calendarHeatmap()
     .data(chartData)
     .selector('.container')
     .tooltipEnabled(false)
-    .colorRange(['#f4f7f7', '#79a8a9'])
+    .colorRange(['#ebedf0', '#f6c106'])
     .onClick(function (data) {
     console.log('data', data);
     });

@@ -7,7 +7,7 @@ function calendarHeatmap() {
   var selector = 'body';
   var SQUARE_LENGTH = 10;
   var SQUARE_PADDING = 2;
-  var MONTH_LABEL_PADDING = 6;
+  var MONTH_LABEL_PADDING = 8;
   var now = moment().endOf('day').toDate();
   var yearAgo = moment().startOf('day').subtract(1, 'year').toDate();
   var startDate = null;
@@ -175,7 +175,7 @@ function calendarHeatmap() {
 
       if (chart.legendEnabled()) {
         var colorRange = [color(0)];
-        for (var i = 3; i > 0; i--) {
+        for (var i = 3; i > 0; i-=1) {
           colorRange.push(color(max / i));
         }
 
@@ -298,7 +298,7 @@ if (!Array.prototype.find) {
     var thisArg = arguments[1];
     var value;
 
-    for (var i = 0; i < length; i++) {
+    for (var i = 0; i < length; i+=1) {
       value = list[i];
       if (predicate.call(thisArg, value, i, list)) {
         return value;
