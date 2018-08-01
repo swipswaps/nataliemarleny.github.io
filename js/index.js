@@ -1,6 +1,6 @@
 var customLocale = {
-    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', ''],
-    days: ['S', 'Mon', 'T', 'Wed', 'T', 'Fri', 'S'],
+    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '', 'Nov', 'Dec'],
+    days: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
     No: 'At home coding',
     on: 'on',
     Less: 'Less',

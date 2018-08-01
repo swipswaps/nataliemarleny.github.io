@@ -1,9 +1,7 @@
-text.month-name,
-text.calendar-heatmap-legend-text,
-text.day-initial {
+.month-name,
+.calendar-heatmap-legend-text,
+.day-initial {
   font-size: 10px;
-  color: #767676;
-  fill: inherit;
 }
 .day-cell-tooltip {
   position: absolute;

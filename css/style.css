@@ -68,6 +68,7 @@ header { height: 60px; }
     box-sizing: initial;
     display: flex;
     flex-shrink: auto;
+    margin-left: 35px;
   }
 
 /* Media Queries */
@@ -85,8 +86,8 @@ header { height: 60px; }
 
 @media (min-width: 1010px) {
     .container {
-        width: 700px;
-        display: block;
+        width: 725px;
+        display: flex;
     }
     .events-explainer { display: none; }
 }

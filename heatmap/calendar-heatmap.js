@@ -8,8 +8,8 @@ function calendarHeatmap() {
   var SQUARE_LENGTH = 10;
   var SQUARE_PADDING = 2;
   var MONTH_LABEL_PADDING = 6;
-  var now = new Date('2018-09-28');
-  var yearAgo = new Date('2017-12-09');
+  var now = new Date('2018-09-22');
+  var yearAgo = new Date('2017-10-28');
   var startDate = null;
   var counterMap= {};
   var data = [];
@@ -186,19 +186,19 @@ function calendarHeatmap() {
             .attr('class', 'calendar-heatmap-legend')
             .attr('width', SQUARE_LENGTH)
             .attr('height', SQUARE_LENGTH)
-            .attr('x', function (d, i) { return (width - legendWidth) + (i - 10) * 13; })
+            .attr('x', function (d, i) { return (width - legendWidth) + (i - 9) * 13; })
             .attr('y', height + SQUARE_PADDING)
             .attr('fill', function (d) { return d; });
 
         legendGroup.append('text')
           .attr('class', 'calendar-heatmap-legend-text calendar-heatmap-legend-text-less')
-          .attr('x', width - legendWidth - 160)
+          .attr('x', width - legendWidth - 146)
           .attr('y', height + SQUARE_LENGTH)
           .text(locale.Less);
 
         legendGroup.append('text')
           .attr('class', 'calendar-heatmap-legend-text calendar-heatmap-legend-text-more')
-          .attr('x', width - legendWidth - 72)
+          .attr('x', width - legendWidth - 62)
           .attr('y', height + SQUARE_LENGTH)
           .text(locale.More);
       }

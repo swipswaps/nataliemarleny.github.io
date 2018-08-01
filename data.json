@@ -1,5 +1,25 @@
 [
   {
+    "date": "2017-09-27T23:00:00.000Z",
+    "count": 26,
+    "text": "Framer @ IG"
+  },
+  {
+    "date": "2017-10-01T23:00:00.000Z",
+    "count": 26,
+    "text": "Randall Munroe Talk"
+  },
+  {
+    "date": "2017-11-22T23:00:00.000Z",
+    "count": 26,
+    "text": "Mills from ustwo Talk"
+  },
+  {
+    "date": "2017-11-25T23:00:00.000Z",
+    "count": 44,
+    "text": "Silicone Roundabout"
+  },
+  {
     "date": "2017-12-13T23:00:00.000Z",
     "count": 53,
     "text": "Framer @ Deliveroo"
@@ -36,7 +56,7 @@
   },
   {
     "date": "2018-04-22T23:00:00.000Z",
-    "count": 14,
+    "count": 30,
     "text": "London Accessibility"
   },
   {
@@ -46,7 +66,7 @@
   },
   {
     "date": "2018-06-06T23:00:00.000Z",
-    "count": 30,
+    "count": 53,
     "text": "Framer @ Facebook"
   },
   {
