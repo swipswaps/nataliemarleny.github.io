@@ -24,6 +24,10 @@ header { height: 60px; }
 .summary-subtitle { line-height: 24px; }
 .summary-button { width: 229px; }
 .summary-toolkit { height: 35px; }
+.summary-course {
+    height: 35px;
+    border-radius: 15px;
+}
 
 .pinned-list { flex-direction: column; }
 .pinned-item { flex: 48%; }
