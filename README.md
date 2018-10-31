@@ -1,5 +1,4 @@
 # NatalieHub - A resume
-![Gif of website](https://github.com/nataliemarleny/nataliemarleny.github.io/blob/master/assets/img/nataliehub.gif)<br><br>
 
 [nataliemarleny.github.io](https://nataliemarleny.github.io)<br><br>
 A project which forks [Primer CSS](https://github.com/primer/primer-css) to build a Githubbified Resume.<br>
