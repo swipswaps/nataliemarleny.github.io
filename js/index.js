@@ -1,5 +1,5 @@
 var customLocale = {
-    months: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '', 'Nov', 'Dec'],
+    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '', 'Nov', 'Dec'],
     days: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
     No: 'At home coding',
     on: 'on',
@@ -19,7 +19,7 @@ var heatmap = calendarHeatmap()
     .data(chartData)
     .selector('.container')
     .tooltipEnabled(true)
-    .colorRange(['#000000', '#000000'])
+    .colorRange(['#ebedf0', '#2b2525'])
     .onClick(function (data) {
     console.log('data', data);
     });
