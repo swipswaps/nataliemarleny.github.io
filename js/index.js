@@ -19,7 +19,7 @@ var heatmap = calendarHeatmap()
     .data(chartData)
     .selector('.container')
     .tooltipEnabled(true)
-    .colorRange(['#ebedf0', '#2b2525'])
+    .colorRange(['#ebedf0', '#86888A'])
     .onClick(function (data) {
     console.log('data', data);
     });
