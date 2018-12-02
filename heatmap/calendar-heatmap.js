@@ -8,8 +8,8 @@ function calendarHeatmap() {
   var SQUARE_LENGTH = 10;
   var SQUARE_PADDING = 2;
   var MONTH_LABEL_PADDING = 6;
-  var now = new Date('2018-12-01');
-  var yearAgo = new Date('2017-12-28');
+  var now = new Date('2018-12-09');
+  var yearAgo = new Date('2018-01-28');
   var startDate = null;
   var counterMap= {};
   var data = [];
