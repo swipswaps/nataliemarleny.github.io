@@ -7,8 +7,9 @@ header { height: 60px; }
 .gray-500 { color: #6a737d; }
 .gray-700 { background-color: #444d56; }
 .gray-900 { background-color:#24292e; }
+.gray-900-text { color: #24292e; }
 .blue-300 { background-color: #79b8ff; }
-.blue-400 { background-color: #2188ff; }
+.blue-400 { background-color: #c3daf5; }
 .blue-500 { background-color: #0366d6; }
 .blue-800 { background-color: #032f62; }
 .green-400 { background-color: #85e89d; }
