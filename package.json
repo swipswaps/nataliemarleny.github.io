@@ -19,6 +19,7 @@
   "author": "Natalie Marleny",
   "license": "ISC",
   "dependencies": {
+    "@primer/css": "^12.1.0",
     "http-server": "^0.11.1",
     "primer-core": "^6.10.3",
     "primer-product": "^5.6.6"
